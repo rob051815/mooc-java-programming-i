@@ -7,5 +7,9 @@ public class Orwell {
         Scanner scan = new Scanner(System.in);
 
         // Write your program here
+        System.out.println("Give a number:");
+        if(Integer.valueOf(scan.nextLine()) == 1984) {
+            System.out.println("Orwell");
+        }
     }
 }
