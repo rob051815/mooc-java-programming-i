@@ -1,4 +1,6 @@
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 public class Ancient {
@@ -7,5 +9,10 @@ public class Ancient {
         Scanner scan = new Scanner(System.in);
 
         // Write your program here
+        System.out.println("Give a number");
+        int year = Integer.valueOf(scan.nextLine());
+        if(year < 2015) {
+            System.out.println("Ancient history!");
+        }
     }
 }
