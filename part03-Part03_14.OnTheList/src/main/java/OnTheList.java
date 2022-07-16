@@ -16,6 +16,12 @@ public class OnTheList {
 
             list.add(input);
         }
+        System.out.println("Search for?");
+        String query = scanner.nextLine();
+        boolean found = list.contains(query);
+        String message = found ? "was found!" : "was not found!";
+        System.out.println(query + " " + message);
+
 
     }
 }
