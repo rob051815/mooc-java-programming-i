@@ -1,1 +1,1 @@
-## Exercises and answers for MOOC.fi Java programming I
+## Exercises and answers for MOOC.fi Java Programming I
